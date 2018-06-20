@@ -73,5 +73,5 @@ exports.handler = (event, ctx, callback) => {
             return callback(null, response);
         }
 
-        return 
+        return callback(null, constructResponse());
 };
